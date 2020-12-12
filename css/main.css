@@ -45,6 +45,12 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+@media (max-width: 992px) {
+  body {
+    font-size: 14px;
+  }
+}
+
 section {
   padding: 45px 0;
 }
@@ -77,10 +83,26 @@ header {
   padding-top: 20px;
 }
 
+@media (max-width: 992px) {
+  header {
+    padding-top: 15;
+  }
+  header .navbar-brand img {
+    width: 13vw;
+  }
+}
+
 header .navbar {
   background-color: #fee1d9 !important;
   border-radius: 35px;
   padding: 1.4rem 2rem;
+}
+
+@media (max-width: 992px) {
+  header .navbar {
+    padding: 0.9rem 1.5rem;
+    text-align: center;
+  }
 }
 
 header .navbar .nav-item {
@@ -98,8 +120,20 @@ header .navbar .for_btn .btn {
   padding: 1.2vh 1.2vw;
 }
 
+@media (max-width: 992px) {
+  header .navbar .for_btn .btn {
+    padding: 0.8vh 1vw;
+  }
+}
+
 main {
   padding: 6vh 0;
+}
+
+@media (max-width: 992px) {
+  main {
+    padding: 4vh 0;
+  }
 }
 
 main .list_filter li {
@@ -112,14 +146,34 @@ main .list_filter li {
   margin-bottom: 3.5vh;
 }
 
+@media (max-width: 992px) {
+  main .list_filter li {
+    font-size: 0.7em;
+    padding: 1.8vh 6vw 1.8vh 1vw;
+    margin-bottom: 1.5vh;
+  }
+}
+
 main .list_filter li .arow {
   position: absolute;
-  right: 7px;
-  top: 25%;
+  right: 0px;
+  top: 1.8vh;
+}
+
+@media (max-width: 992px) {
+  main .list_filter li .arow img {
+    width: 65%;
+  }
 }
 
 main .offers {
   margin-top: 1.5vh;
+}
+
+@media (max-width: 992px) {
+  main .offers {
+    margin-top: 0.5vh;
+  }
 }
 
 main .offers .one_offer {
@@ -128,6 +182,15 @@ main .offers .one_offer {
   padding: 3vh 1vw 2vh;
   margin-top: 2.5vh;
   border-radius: 8px;
+}
+
+@media (max-width: 992px) {
+  main .offers .one_offer {
+    padding: 1.5vh 1vw 0.8vh;
+  }
+  main .offers .one_offer .row > div:first-of-type {
+    margin-bottom: 2vh;
+  }
 }
 
 main .offers .one_offer .img_offer {
@@ -181,9 +244,21 @@ main .offers .one_offer .desc {
   color: #b1b1b1;
 }
 
+@media (max-width: 992px) {
+  main .offers .one_offer .desc {
+    margin-top: 1.5vh;
+  }
+}
+
 main .offers .one_offer .list_hash {
   position: absolute;
   bottom: 2vh;
+}
+
+@media (max-width: 992px) {
+  main .offers .one_offer .list_hash {
+    position: static;
+  }
 }
 
 main .offers .one_offer .list_hash ul {
@@ -202,8 +277,23 @@ main .map {
   height: 100%;
 }
 
+@media (max-width: 992px) {
+  main .map {
+    margin-top: 3vh;
+    width: 100%;
+    height: auto;
+  }
+}
+
 main .map img {
   height: 100%;
+}
+
+@media (max-width: 992px) {
+  main .map img {
+    width: 100%;
+    height: 35vh;
+  }
 }
 
 /* ----------- 02 -End Header CSS   -----------*/
@@ -213,8 +303,21 @@ main .map img {
   color: #f2f2f2;
 }
 
+@media (max-width: 992px) {
+  .footer {
+    text-align: center;
+    padding: 35px 0 20px;
+  }
+}
+
 .footer .f-logo {
   margin-bottom: 7vh;
+}
+
+@media (max-width: 992px) {
+  .footer .f-logo {
+    margin-bottom: 5vh;
+  }
 }
 
 .footer .f-adresse {
@@ -225,6 +328,12 @@ main .map img {
   margin-top: 5vh;
 }
 
+@media (max-width: 992px) {
+  .footer .social {
+    margin: 3vh 0;
+  }
+}
+
 .footer .social ul li {
   display: inline-block;
   margin-right: 1vw;
@@ -232,7 +341,12 @@ main .map img {
 
 .footer .f-titles {
   font-size: 1.2em;
-  margin-bottom: 22px;
+}
+
+@media (max-width: 992px) {
+  .footer .f-titles {
+    margin: 3vh 0 1.5vh;
+  }
 }
 
 .footer .list_foot li {
