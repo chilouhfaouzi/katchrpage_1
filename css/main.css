@@ -1,0 +1,248 @@
+/* --------------------------
+:: Template Name: 
+:: Description:
+:: Created: 10/10/2020  MM/DD/YYYY
+-------------------------- */
+/* ----------------------
+
+[Table of contents]
+01.Base CSS
+02.Header CSS
+
+
+ --------------------------*/
+/*  ----------- 01- Start Base CSS  ----------- */
+:root {
+  --main-green-color: #465d50;
+  --main-orange-color: rgba(255, 111, 72, 1);
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a,
+a:hover {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  padding: 45px 0;
+}
+
+@media (max-width: 992px) {
+  section {
+    padding: 30px 0;
+  }
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+/*  ----------- 01 -End Base CSS   -----------*/
+/* ----------- 02 -start Header CSS   -----------*/
+header {
+  padding-top: 20px;
+}
+
+header .navbar {
+  background-color: #fee1d9 !important;
+  border-radius: 35px;
+  padding: 1.4rem 2rem;
+}
+
+header .navbar .nav-item {
+  margin-left: 2.5vw;
+}
+
+header .navbar .for_btn {
+  margin-left: 3vw;
+}
+
+header .navbar .for_btn .btn {
+  color: #fff;
+  border-radius: 8px;
+  background-color: #fe5c4f;
+  padding: 1.2vh 1.2vw;
+}
+
+main {
+  padding: 6vh 0;
+}
+
+main .list_filter li {
+  display: inline-block;
+  background-color: #f6f6f6;
+  border-radius: 6px;
+  font-size: 1em;
+  padding: 2.8vh 3vw 2.8vh 1vw;
+  position: relative;
+  margin-bottom: 3.5vh;
+}
+
+main .list_filter li .arow {
+  position: absolute;
+  right: 7px;
+  top: 25%;
+}
+
+main .offers {
+  margin-top: 1.5vh;
+}
+
+main .offers .one_offer {
+  -webkit-box-shadow: 0px 0px 3px 3px #eee;
+          box-shadow: 0px 0px 3px 3px #eee;
+  padding: 3vh 1vw 2vh;
+  margin-top: 2.5vh;
+  border-radius: 8px;
+}
+
+main .offers .one_offer .img_offer {
+  margin-bottom: 1.5vh;
+}
+
+main .offers .one_offer .img_offer img {
+  max-height: 90%;
+  max-width: 95%;
+}
+
+main .offers .one_offer .tel {
+  color: #fe5c4f;
+  background-color: #fee1d9;
+  border-radius: 5px;
+  padding: 8px 10px;
+  font-size: 0.75em;
+}
+
+main .offers .one_offer .tel img {
+  margin-right: 3px;
+}
+
+main .offers .one_offer .title {
+  font-size: 1.05em;
+}
+
+main .offers .one_offer .message {
+  font-size: 0.8em;
+  background-color: #fe5c4f;
+  color: #fff;
+  border-radius: 8px;
+}
+
+main .offers .one_offer .message img {
+  margin-right: 3px;
+}
+
+main .offers .one_offer .adresse {
+  color: #202124;
+  font-size: 0.8em;
+}
+
+main .offers .one_offer .adresse img {
+  margin-right: 4px;
+}
+
+main .offers .one_offer .desc {
+  margin-top: 4vh;
+  font-size: 0.7em;
+  color: #b1b1b1;
+}
+
+main .offers .one_offer .list_hash {
+  position: absolute;
+  bottom: 2vh;
+}
+
+main .offers .one_offer .list_hash ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .offers .one_offer .list_hash li {
+  font-size: 0.6em;
+  color: #e0e5ea;
+  padding: 0 0.6vw;
+}
+
+main .map {
+  height: 100%;
+}
+
+main .map img {
+  height: 100%;
+}
+
+/* ----------- 02 -End Header CSS   -----------*/
+.footer {
+  background-color: #202124;
+  padding: 60px 0 30px;
+  color: #f2f2f2;
+}
+
+.footer .f-logo {
+  margin-bottom: 7vh;
+}
+
+.footer .f-adresse {
+  font-size: 0.95em;
+}
+
+.footer .social {
+  margin-top: 5vh;
+}
+
+.footer .social ul li {
+  display: inline-block;
+  margin-right: 1vw;
+}
+
+.footer .f-titles {
+  font-size: 1.2em;
+  margin-bottom: 22px;
+}
+
+.footer .list_foot li {
+  margin: 15px 0;
+  font-size: 0.9em;
+  font-weight: 300;
+}
+
+.footer .copyright {
+  margin-top: 2vh;
+  font-size: 0.8em;
+}
+/*# sourceMappingURL=main.css.map */
